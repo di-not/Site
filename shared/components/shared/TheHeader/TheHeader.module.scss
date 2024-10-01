@@ -1,0 +1,43 @@
+.burger {
+	width: 40px;
+	height: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	.burger_span {
+		transition: 0.5s ease-out;
+		width: 100%;
+		height: 5px;
+		background-color:black;
+		&:nth-child(n) {
+			border-radius: 10px;
+		}
+	}
+	@media (hover: hover) {
+		&:hover {
+			.burger_span {
+				animation: shaking 0.2s infinite;
+			}
+		}
+	}
+	@media (hover: none) {
+		&:active {
+			.burger_span {
+				animation: shaking 0.2s infinite;
+			}
+		}
+	}
+}
+@keyframes shaking {
+	0% {
+		 rotate:0deg;
+	}
+
+	50% {
+         rotate:2deg;
+	}
+    100% {
+         rotate:-2deg;
+	}
+}

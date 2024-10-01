@@ -1,7 +1,10 @@
+
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import './globals.scss'
 import { cn } from '@/lib/utils'
+import ReduxProvider from '@/shared/redux/ReduxProvider/ReduxProvider'
+
 
 const montserrat = Montserrat({
 	subsets: ['cyrillic'],
@@ -21,9 +24,9 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={`${montserrat.className}`}>
-				<div className={cn('relative min-h-full flex flex-col z-1')} >
-					{children}
-				</div>
+					<div className={cn('relative min-h-full flex flex-col z-1')}>
+						<ReduxProvider>{children}</ReduxProvider>
+					</div>
 			</body>
 		</html>
 	)

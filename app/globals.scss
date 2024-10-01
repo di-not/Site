@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -10,6 +12,7 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  
 }
 @layer utilities {
   .text-balance {
@@ -85,6 +88,7 @@ html {
 
 //colors
 $color-primary:rgb(0, 163, 255);
+$color-black:rgb(15, 15, 15);
 
 //sizes
 $size-mobile: 600px;
@@ -97,17 +101,36 @@ $size-mobile: 600px;
 }
 
 html,
-body,
-#root {
+body {
 	height: 100%;
 }
-// .wrapper {
-// 	position: relative;
-// 	min-height: 100%;
-// 	display: flex;
-// 	flex-direction: column;
-// 	z-index: 1;
-// }
+body {
+  overflow: overlay;
+}
+
+*::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
 main {
 	min-height: 280px;
 	flex-grow: 1;
@@ -115,8 +138,8 @@ main {
 }
 
 .container {
-	max-width: 1488px;
-	padding: 0 72px;
+	max-width: 1320px;
+	padding: 0 70px;
 	margin: 0 auto;
 }
 img {
