@@ -6,11 +6,7 @@ type CartItemsType = {
 	count: number
 }
 
-const initialState: CartItemsType[] =[]
-//  JSON.parse(
-// 	(localStorage.getItem('cartItems') && localStorage.getItem('cartItems')) ||'[]'
-// )
-
+const initialState: CartItemsType[] = []
 const cartItemSlice = createSlice({
 	name: 'store/cartItems',
 	initialState,
@@ -24,15 +20,15 @@ const cartItemSlice = createSlice({
 				state.push({ cartItem: product, count: 1 })
 			}
 		},
-		// removeCartItem: (
-		// 	state,
-		// 	{ payload: product }: PayloadAction<ProductType>
-		// ) => {
-		// 	const isExists = state.cartItems.some(item => item.id === product.id)
-		// 	const id = state.cartItems.indexOf(product)
-		// 	if (!isExists) return
-		// 	state.cartItems.slice(id, 1)
-		// },
+		removeCartItem: (
+			state,
+			{ payload: product }: PayloadAction<ProductType>
+		) => {
+			const isExists = state.some(item => item.cartItem.id === product.id)
+			const id = state.findIndex(item => item.cartItem.id === product.id)
+			if (!isExists) return
+			state.slice(id, 1)
+		},
 		setCartItems(state, action: PayloadAction<CartProduct[]>) {
 			state = action.payload.map(e => {
 				return { cartItem: e, count: 1 }
