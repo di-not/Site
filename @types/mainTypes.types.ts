@@ -14,4 +14,7 @@ export interface ProductType {
 
 export type Sizes = 'S' | 'M' | 'L' | 'XL'
 
-export type CartProduct = ProductType & { count: number }
+export type CartItemsType = {
+	cartItem: ProductType
+	count: number
+}

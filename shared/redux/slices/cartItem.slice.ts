@@ -1,10 +1,5 @@
-import { CartProduct, ProductType } from '@/@types/mainTypes.types'
+import { CartItemsType, ProductType } from '@/@types/mainTypes.types'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-
-type CartItemsType = {
-	cartItem: ProductType
-	count: number
-}
 
 const initialState: CartItemsType[] = []
 const cartItemSlice = createSlice({
@@ -29,12 +24,10 @@ const cartItemSlice = createSlice({
 			if (!isExists) return
 			state.slice(id, 1)
 		},
-		setCartItems(state, action: PayloadAction<CartProduct[]>) {
-			state = action.payload.map(e => {
-				return { cartItem: e, count: 1 }
-			})
+		setCartItems(state, action: PayloadAction<CartItemsType[]>) {
+			state = action.payload
 		},
 	},
 })
-export const { setCartItems, addCartItem } = cartItemSlice.actions
+export const { setCartItems, addCartItem,removeCartItem} = cartItemSlice.actions
 export default cartItemSlice.reducer
