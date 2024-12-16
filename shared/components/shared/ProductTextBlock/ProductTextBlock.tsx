@@ -1,5 +1,5 @@
 'use client'
-import { ProductType } from '@/@types/mainTypes.types'
+import { ProductType, Sizes } from '@/@types/mainTypes.types'
 import styles from './ProductTextBlock.module.scss'
 import Image from 'next/image'
 import {
@@ -14,6 +14,8 @@ import { useState } from 'react'
 import { Button } from '../../ui/button'
 import { addCartItem } from '@/shared/redux/slices/cartItem.slice'
 import { useActions } from '@/shared/redux/hooks/useActions'
+import { useToast } from '@/hooks/use-toast'
+import { ToastAction } from '../../ui/toast'
 interface ProductTextBlockProps {
 	info: ProductType
 }
@@ -21,13 +23,29 @@ interface ProductTextBlockProps {
 const ProductTextBlock: React.FC<ProductTextBlockProps> = props => {
 	const { info } = props
 	const [size, setSize] = useState(sizes[0])
-	const { addCartItem } = useActions()
+	const { addCartItem,removeCartItem } = useActions()
+	const { toast } = useToast()
+
+	const onClickAdd = ()=> {
+		addCartItem({product:info,size:size})
+		toast({
+			title: 'Добавлено в корзину',
+			description: `${info.name} / ${size}`,
+			action: <ToastAction altText='удалить' onClick={()=>{removeCartItem({product:info,size:size})}}>Удалить</ToastAction>,
+		})
+	}
+	
 	return (
 		<div>
 			<h1 className='text-5xl'>{info.name}</h1>
 			<h2 className='mt-8 text-3xl'>{info.price}₽</h2>
-			<div className='flex mt-2 justify-between'>
-				<Select>
+			<div className='mt-2 flex w-full h-fit justify-between'>
+				<Select
+					name='size'
+					onValueChange={(value: Sizes) => {
+						setSize(value)
+					}}
+				>
 					<SelectTrigger className='w-3/6'>
 						<SelectValue placeholder={size} />
 					</SelectTrigger>
@@ -38,9 +56,6 @@ const ProductTextBlock: React.FC<ProductTextBlockProps> = props => {
 									disabled={!info.sizes.includes(value)}
 									key={value}
 									value={`${value}`}
-									onClick={() => {
-										setSize(value)
-									}}
 								>
 									{info.sizes?.includes(value)
 										? value
@@ -50,12 +65,7 @@ const ProductTextBlock: React.FC<ProductTextBlockProps> = props => {
 						})}
 					</SelectContent>
 				</Select>
-				<Button
-					className='px-10 w-2/5'
-					onClick={() => {
-						addCartItem(info)
-					}}
-				>
+				<Button className='px-10 w-2/5' onClick={onClickAdd}>
 					В корзину
 				</Button>
 			</div>
@@ -68,6 +78,7 @@ const ProductTextBlock: React.FC<ProductTextBlockProps> = props => {
 				height={1000}
 				alt='размеры'
 				className='mt-4'
+				priority={true}
 			/>
 		</div>
 	)

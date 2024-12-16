@@ -1,0 +1,44 @@
+.svg {
+	z-index: 10;
+	transition: 0.3s ease-in-out;
+	overflow: visible;
+    cursor: pointer;
+	.path {
+		position: relative;
+
+		transition: 0.3s ease-in-out;
+		transform-origin: 50% 30%;
+	}
+	@media (hover: hover) {
+		&:hover {
+			transition: 0.3s ease-in-out;
+			.path:first-child {
+				transform: translateY(-4px);
+
+				animation: shaking 0.2s infinite;
+			}
+			.path:nth-child(3) {
+				transform: translateY(-4px);
+				animation: shaking 0.2s infinite;
+			}
+		}
+	}
+	@media (hover: none) {
+		&:active {
+			transition: 0.3s ease-in-out;
+		}
+	}
+}
+@keyframes shaking {
+	0% {
+		transform: rotateZ(0) translateY(-4px);
+        
+	}
+    50% {
+		transform: rotateZ(4deg) translateY(-4px);
+	}
+		
+	100% {
+		transform: rotateZ(-4deg) translateY(-4px);
+	}
+}

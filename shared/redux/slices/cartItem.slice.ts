@@ -1,4 +1,4 @@
-import { CartItemsType, ProductType } from '@/@types/mainTypes.types'
+import { CartItemsType, ProductType, Sizes } from '@/@types/mainTypes.types'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 const initialState: CartItemsType[] = []
@@ -6,28 +6,61 @@ const cartItemSlice = createSlice({
 	name: 'store/cartItems',
 	initialState,
 	reducers: {
-		addCartItem: (state, { payload: product }: PayloadAction<ProductType>) => {
-			const isExists = state.some(item => item.cartItem.id === product.id)
-			const id = state.findIndex(item => item.cartItem.id === product.id)
+		addCartItem: (
+			state,
+			{ payload }: PayloadAction<{ product: ProductType; size: Sizes }>
+		) => {
+			const isExists = state.some(
+				item =>
+					item.cartItem.id === payload.product.id && item.size === payload.size
+			)
+			const id = state.findIndex(
+				item =>
+					item.cartItem.id === payload.product.id && item.size === payload.size
+			)
 			if (isExists) {
-				state[id].count++
+				if (state[id].count >= 10) {
+					return
+				} else {
+					state[id].count++
+				}
 			} else {
-				state.push({ cartItem: product, count: 1 })
+				state.push({ cartItem: payload.product, count: 1, size: payload.size })
 			}
 		},
 		removeCartItem: (
 			state,
-			{ payload: product }: PayloadAction<ProductType>
+			{ payload }: PayloadAction<{ product: ProductType; size: Sizes }>
 		) => {
-			const isExists = state.some(item => item.cartItem.id === product.id)
-			const id = state.findIndex(item => item.cartItem.id === product.id)
+			const isExists = state.some(
+				item =>
+					item.cartItem.id === payload.product.id && item.size === payload.size
+			)
+			const id = state.findIndex(
+				item =>
+					item.cartItem.id === payload.product.id && item.size === payload.size
+			)
 			if (!isExists) return
-			state.slice(id, 1)
+			state.splice(id, 1)
 		},
-		setCartItems(state, action: PayloadAction<CartItemsType[]>) {
-			state = action.payload
+		setCartItems(state, { payload }: PayloadAction<CartItemsType[]>) {			
+			state.splice(0,state.length)
+			payload.map((e,i)=>state[i] = e)
+		},
+		setCartItem(state, { payload }: PayloadAction<CartItemsType>) {
+			const isExists = state.some(
+				item =>
+					item.cartItem.id === payload.cartItem.id && item.size === payload.size
+			)
+			const id = state.findIndex(
+				item =>
+					item.cartItem.id === payload.cartItem.id && item.size === payload.size
+			)
+			if (!isExists) return
+			state[id] = payload
 		},
 	},
 })
-export const { setCartItems, addCartItem,removeCartItem} = cartItemSlice.actions
+export const { setCartItems, addCartItem, removeCartItem, setCartItem } =
+	cartItemSlice.actions
 export default cartItemSlice.reducer

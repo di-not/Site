@@ -6,7 +6,7 @@ export default async function Home() {
 	const items: ProductType[] = await getAllProducts()
 	return (
 		<div className='container '>
-			<div className='min-h-[1500px] mt-10'>
+			<div className='min-h-[1500px] mt-10 mb-10'>
 				<ProductsList data={items} />
 			</div>
 		</div>

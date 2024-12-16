@@ -24,9 +24,9 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={`${montserrat.className}`}>
-					<div className={cn('relative min-h-full flex flex-col z-1')}>
-						<ReduxProvider>{children}</ReduxProvider>
-					</div>
+				<div className={cn('relative min-h-full flex flex-col z-1')}>
+					<ReduxProvider>{children}</ReduxProvider>					
+				</div>
 			</body>
 		</html>
 	)

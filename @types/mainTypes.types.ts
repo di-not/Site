@@ -9,7 +9,8 @@ export interface ProductType {
 	href: string
 	id: number
 	metadataKeywords: string
-	sizes:Sizes[]
+	sizes: Sizes[]
+	
 }
 
 export type Sizes = 'S' | 'M' | 'L' | 'XL'
@@ -17,4 +18,5 @@ export type Sizes = 'S' | 'M' | 'L' | 'XL'
 export type CartItemsType = {
 	cartItem: ProductType
 	count: number
+	size: Sizes
 }

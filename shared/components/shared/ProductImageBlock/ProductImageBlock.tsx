@@ -56,6 +56,7 @@ const ProductImageBlock: React.FC<ProductImageBlockProps> = props => {
 												src={info.images}
 												alt='изображение'
 												className='w-full max-h-[120px] h-full'
+												priority={true}
 											/>
 										</button>
 									</CarouselItem>
@@ -80,6 +81,7 @@ const ProductImageBlock: React.FC<ProductImageBlockProps> = props => {
 									src={info.images}
 									alt='изображение'
 									className='w-full lg:max-h-[520px] h-full'
+									priority={true}
 								/>
 							</CarouselItem>
 						)
@@ -116,6 +118,7 @@ const ProductImageBlock: React.FC<ProductImageBlockProps> = props => {
 												src={info.images}
 												alt='изображение'
 												className='w-full'
+												priority={true}
 											/>
 										</button>
 									</CarouselItem>
