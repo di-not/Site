@@ -23,25 +23,17 @@
 
  ### :hammer_and_wrench: Технологический стек
 
-<div align="center">
-  
-#### 🖥️ Frontend
-<img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" height="25"/>
-<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" height="25"/> 
-<img src="https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white" height="25"/>
+<div align="center" style="margin: 20px 0;">
 
-#### ⚙️ Backend
-<img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" height="25"/>
-<img src="https://img.shields.io/badge/TRPC-2596BE?logo=tRPC&logoColor=white" height="25"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" height="25"/>
+#### Основной стек T3
+<img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" height="25" title="Фронтенд и SSR"/>
+<img src="https://img.shields.io/badge/tRPC-2596BE?style=flat&logo=tRPC&logoColor=white" height="25" title="Типобезопасный API"/>
+<img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" height="25" title="ORM для БД"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" height="25" title="Утилитарные стили"/>
 
-#### 🎨 Стилизация
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" height="25"/>
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white" height="25"/>
-
-#### 🗃️ Базы данных
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" height="25"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" height="25"/>
+#### Дополнительные технологии
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="25" title="Обработка форм"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="25" title="Базовая технология"/>
 
 </div>
 
