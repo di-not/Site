@@ -1,42 +1,59 @@
 ## 👥 Команда разработчиков
 
+<div align="center">
 <table>
-  <tr style="border-radius: 50%" style="display:flex;">
-    <td  width="200px"  style="display:flex; flex-direction:column ">
-      <img src="https://avatars.githubusercontent.com/u/191477093?v=4" width="100" style="border-radius: 50%"/><br>
-      <strong>Овчинникова Елизавета</strong><br>
-      Team Lead<br>
-      Дизайнер<br>
-      Fullstack Dev<br>
-      <a href="https://github.com/Liza-O">@Liza-O</a>
+  <tr>
+    <td valign="top" width="200px" style="height: 180px;">
+      <div style="text-align: left; padding: 0 10px;">
+        <img src="https://avatars.githubusercontent.com/u/191477093?v=4" width="60" style="border-radius: 50%; margin-bottom: 8px;"/>
+        <div><strong>Овчинникова Елизавета</strong></div>
+        <div style="font-size: 0.9em; line-height: 1.4; margin-top: 6px;">
+          Team Lead • Дизайнер<br>
+          Fullstack Dev<br>
+          <a href="https://github.com/Liza-O">@Liza-O</a>
+        </div>
+      </div>
     </td>
-    <td  width="200px" style="display:flex; flex-direction:column ">
-      <img src="https://avatars.githubusercontent.com/u/191490969?v=4" width="100" style="border-radius: 50% margin-top:0px"/><br>
-      <strong>Буренова Анна</strong><br>
-      Дизайнер<br>
-      Fullstack Dev<br>
-      <a href="https://github.com/BurenovaAnna6302">@BurenovaAnna6302</a>
+    <td valign="top" width="200px" style="height: 180px;">
+      <div style="text-align: left; padding: 0 10px;">
+        <img src="https://avatars.githubusercontent.com/u/191490969?v=4" width="60" style="border-radius: 50%; margin-bottom: 8px;"/>
+        <div><strong>Буренова Анна</strong></div>
+        <div style="font-size: 0.9em; line-height: 1.4; margin-top: 6px;">
+          Дизайнер • Fullstack Dev<br>
+          <a href="https://github.com/BurenovaAnna6302">@BurenovaAnna6302</a>
+        </div>
+      </div>
     </td>
-    <td  width="200px" style="display:flex; flex-direction:column ">
-      <img src="https://avatars.githubusercontent.com/u/166629949?v=4" width="100" style="border-radius: 50%"/><br>
-      <strong>Елизарова Анастасия</strong><br>
-      Fullstack Dev<br>
-      <br>
-      <a href="https://github.com/Anastasia011s">@Anastasia011s</a>
+    <td valign="top" width="200px" style="height: 180px;">
+      <div style="text-align: left; padding: 0 10px;">
+        <img src="https://avatars.githubusercontent.com/u/166629949?v=4" width="60" style="border-radius: 50%; margin-bottom: 8px;"/>
+        <div><strong>Елизарова Анастасия</strong></div>
+        <div style="font-size: 0.9em; line-height: 1.4; margin-top: 6px;">
+          Fullstack Dev<br>
+          <a href="https://github.com/Anastasia011s">@Anastasia011s</a>
+        </div>
+      </div>
     </td>
-    <td  width="200px" style="display:flex; flex-direction:column ">
-      <img src="https://avatars.githubusercontent.com/u/159873153?v=4" width="100" style="border-radius: 50%"/><br>
-      <strong>Кочетков Егор</strong><br>
-      Fullstack Dev<br>
-      <br>
-      <a href="https://github.com/PIRSON21">@PIRSON21</a>
+    <td valign="top" width="200px" style="height: 180px;">
+      <div style="text-align: left; padding: 0 10px;">
+        <img src="https://avatars.githubusercontent.com/u/159873153?v=4" width="60" style="border-radius: 50%; margin-bottom: 8px;"/>
+        <div><strong>Кочетков Егор</strong></div>
+        <div style="font-size: 0.9em; line-height: 1.4; margin-top: 6px;">
+          Fullstack Dev<br>
+          <a href="https://github.com/PIRSON21">@PIRSON21</a>
+        </div>
+      </div>
     </td>
-    <td  width="200px" style="display:flex; flex-direction:column ">
-      <img src="https://avatars.githubusercontent.com/u/160622634?v=4" width="100" style="border-radius: 50%"/><br>
-      <strong>Кувшинов Антон</strong><br>
-      Fullstack Dev<br>
-      <br>
-      <a href="https://github.com/di-not">@di-not</a>
+    <td valign="top" width="200px" style="height: 180px;">
+      <div style="text-align: left; padding: 0 10px;">
+        <img src="https://avatars.githubusercontent.com/u/160622634?v=4" width="60" style="border-radius: 50%; margin-bottom: 8px;"/>
+        <div><strong>Кувшинов Антон</strong></div>
+        <div style="font-size: 0.9em; line-height: 1.4; margin-top: 6px;">
+          Fullstack Dev<br>
+          <a href="https://github.com/di-not">@di-not</a>
+        </div>
+      </div>
     </td>
   </tr>
 </table>
+</div>
