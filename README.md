@@ -48,7 +48,6 @@
         </div>
       </div>
     </td>
-  </tr>
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
       <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
         <div>
