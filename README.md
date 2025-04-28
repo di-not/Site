@@ -1,3 +1,5 @@
+## 👥 Команда разработчиков
+
 <table>
   <tr>
     <!-- Первая строка -->
@@ -23,9 +25,6 @@
       <br>
       <a href="https://github.com/Anastasia011s">@Anastasia011s</a>
     </td>
-  </tr>
-  <tr>
-    <!-- Вторая строка -->
     <td align="center" width="200px">
       <img src="https://avatars.githubusercontent.com/u/159873153?v=4" width="100" style="border-radius: 50%"/><br>
       <strong>Кочетков Егор</strong><br>
