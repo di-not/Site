@@ -4,7 +4,7 @@
 
 **Каталог "Волжские салюты"** - это современное веб-решение для презентации пиротехнической продукции с элементами интерактивности. Проект разработан командой энтузиастов из Самарского университета.
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=algorithm-ssau&repo=AEAEA&theme=dark&border_radius=6&mode=weekly)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=di-not&repo=AEAEA&theme=dark&border_radius=6&mode=weekly)](https://git.io/streak-stats)
 
 [![Последний коммит](https://img.shields.io/github/last-commit/algorithm-ssau/AEAEA?style=for-the-badge&color=green)](https://github.com/algorithm-ssau/AEAEA/commits/main)
 [![Контрибьюторы](https://img.shields.io/github/contributors/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/graphs/contributors)
