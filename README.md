@@ -4,7 +4,7 @@
 <table>
   <tr>
     <!-- Первая строка карточек -->
-    <td valign="top" width="340px" рstyle="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
+    <td valign="top" width="340px" height="360px" рstyle="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/191477093?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
@@ -20,7 +20,7 @@
         </div>
       </div>
     </td>
-    <td valign="top" width="340px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
+    <td valign="top" width="340px" height="360px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/191490969?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
@@ -36,7 +36,7 @@
         </div>
       </div>
     </td>
-    <td valign="top" width="340px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
+    <td valign="top" width="340px" height="360px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/166629949?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
@@ -52,7 +52,7 @@
         </div>
       </div>
     </td>
-    <td valign="top" width="340px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
+    <td valign="top" width="340px" height="360px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/159873153?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
@@ -68,7 +68,7 @@
         </div>
       </div>
     </td>
-    <td valign="top" width="340px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
+    <td valign="top" width="340px" height="360px" style="height: 360px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 10px;">
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/160622634?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
