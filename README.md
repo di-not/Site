@@ -11,7 +11,7 @@
       <a href="https://github.com/Liza-O">@Liza-O</a>
     </td>
     <td  width="200px" style="display:flex; flex-direction:column ">
-      <img src="https://avatars.githubusercontent.com/u/191490969?v=4" width="100" style="border-radius: 50%"/><br>
+      <img src="https://avatars.githubusercontent.com/u/191490969?v=4" width="100" style="border-radius: 50% margin-top:0px"/><br>
       <strong>Буренова Анна</strong><br>
       Дизайнер<br>
       Fullstack Dev<br>
