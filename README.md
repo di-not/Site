@@ -47,7 +47,9 @@ npm run dev
 http://localhost:3000
 
 <br/>
+
 ### 👥 Команда разработчиков
+
 <table align="center">
   <tr>
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
