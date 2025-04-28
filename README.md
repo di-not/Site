@@ -46,8 +46,7 @@ npm run dev
 <b>После успешного запуска откройте в браузере:<b>
 http://localhost:3000
 
-
-## 
+<br/>
 ## 👥 Команда разработчиков
 <table align="center">
   <tr>
@@ -135,7 +134,7 @@ http://localhost:3000
 </table>
 
 <div align="center" style="margin: 20px 0;">
-## 
+<br/>
 #### Основные технологии
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="25" title="Основной язык"/>
 <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" height="25" title="UI библиотека"/> 
@@ -152,7 +151,7 @@ http://localhost:3000
 #### Дополнительно
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="25" title="Спец. обработка"/>
 
-
+<br/><br/>
 [![Последний коммит](https://img.shields.io/github/last-commit/algorithm-ssau/AEAEA?style=for-the-badge&color=green)](https://github.com/algorithm-ssau/AEAEA/commits/main)
 [![Контрибьюторы](https://img.shields.io/github/contributors/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/graphs/contributors)
 [![Открытые issues](https://img.shields.io/github/issues-raw/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/issues)
