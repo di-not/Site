@@ -21,26 +21,33 @@
   - CRUD-операции для каталога товаров
   - Редактирование текстовых и графических материалов
 
- <div align="center" style="margin: 20px 0;">
+## 🚀 Инструкция по запуску проекта
 
-#### Основные технологии
-<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="25" title="Основной язык"/>
-<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" height="25" title="UI библиотека"/> 
-<img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" height="25" title="Фреймворк"/>
+### 📦 Предварительные требования
+```bash
+# Проверьте установленные версии (минимальные требования)
+node -v  # → v18.0+
+npm -v   # → v9.0+
+mongod --version  # → v6.0+
+```
+### ⚡ Быстрый старт
+```bash
+# 1. Клонирование репозитория
+git clone https://github.com/algorithm-ssau/AEAEA.git && cd AEAEA
 
-#### Бэкенд и БД
-<img src="https://img.shields.io/badge/tRPC-2596BE?style=flat&logo=tRPC&logoColor=white" height="25" title="API"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" height="25" title="Документная БД"/>
+# 2. Установка зависимостей
+npm install
 
-#### Стилизация
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" height="25" title="Утилиты"/>
-<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" height="25" title="Препроцессор"/>
+# 3. Запуск приложения
+npm run dev
+```
+🌐 Доступ к приложению
 
-#### Дополнительно
-<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="25" title="Спец. обработка"/>
+После успешного запуска откройте в браузере:
+http://localhost:3000
 
-</div>
 
+ 
 <table align="center">
   <tr>
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
@@ -125,6 +132,25 @@
     </td>
   </tr>
 </table>
+
+<div align="center" style="margin: 20px 0;">
+
+#### Основные технологии
+<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="25" title="Основной язык"/>
+<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" height="25" title="UI библиотека"/> 
+<img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" height="25" title="Фреймворк"/>
+
+#### Бэкенд и БД
+<img src="https://img.shields.io/badge/tRPC-2596BE?style=flat&logo=tRPC&logoColor=white" height="25" title="API"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" height="25" title="Документная БД"/>
+
+#### Стилизация
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" height="25" title="Утилиты"/>
+<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" height="25" title="Препроцессор"/>
+
+#### Дополнительно
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="25" title="Спец. обработка"/>
+</div>
 
 [![Последний коммит](https://img.shields.io/github/last-commit/algorithm-ssau/AEAEA?style=for-the-badge&color=green)](https://github.com/algorithm-ssau/AEAEA/commits/main)
 [![Контрибьюторы](https://img.shields.io/github/contributors/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/graphs/contributors)
