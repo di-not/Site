@@ -6,7 +6,7 @@
     <td valign="top" width="200px" style="height: 180px;">
       <div style="text-align: left; padding: 0 10px;">
         <img src="https://avatars.githubusercontent.com/u/191477093?v=4" width="60" style="border-radius: 50%; margin-bottom: 8px;"/>
-        <div><strong width="40px">Овчинникова Елизавета</strong></div>
+        <div><strong width="400px">Овчинникова Елизавета</strong></div>
         <div style="font-size: 0.9em; line-height: 1.4; margin-top: 6px;">
           Team Lead • Дизайнер<br>
           Fullstack Dev<br>
