@@ -8,7 +8,7 @@
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/191477093?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
-          <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 20px; color: #fff;">Овчинникова Елизавета</div>
+          <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 20px; color: #fff; height:40px">Овчинникова Елизавета</div>
           <div style="line-height: 2; font-size: 1.1em; color: #e0e0e0; text-align: left; padding-left: 20px;">
             <div>• Team Lead</div>
             <div>• Дизайнер</div>
@@ -24,7 +24,7 @@
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/191490969?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
-          <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 20px; color: #fff;">Буренова Анна</div>
+          <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 20px; color: #fff; height:40px">Буренова Анна</div>
           <div style="line-height: 2; font-size: 1.1em; color: #e0e0e0; text-align: left; padding-left: 20px;">
             <div>• Дизайнер</div>
             <div>• Fullstack Dev</div>
@@ -40,7 +40,7 @@
       <div style="text-align: center; height: 100%; display: flex; flex-direction: column;">
         <img src="https://avatars.githubusercontent.com/u/166629949?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
         <div style="flex: 1;">
-          <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 20px; color: #fff;">Елизарова Анастасия</div>
+          <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 20px; color: #fff; height:40px">Елизарова Анастасия</div>
           <div style="line-height: 2; font-size: 1.1em; color: #e0e0e0; text-align: left; padding-left: 20px;">
             <div>• Fullstack Dev</div>
             <div>&nbsp;</div>
