@@ -20,16 +20,33 @@
   - Полноценная панель управления контентом
   - CRUD-операции для каталога товаров
   - Редактирование текстовых и графических материалов
- 
-  - 
-[![Последний коммит](https://img.shields.io/github/last-commit/algorithm-ssau/AEAEA?style=for-the-badge&color=green)](https://github.com/algorithm-ssau/AEAEA/commits/main)
-[![Контрибьюторы](https://img.shields.io/github/contributors/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/graphs/contributors)
-[![Открытые issues](https://img.shields.io/github/issues-raw/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/issues)
 
+ ### :hammer_and_wrench: Технологический стек
+
+<div align="center">
+  
+#### 🖥️ Frontend
+<img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" height="25"/>
+<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" height="25"/> 
+<img src="https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white" height="25"/>
+
+#### ⚙️ Backend
+<img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" height="25"/>
+<img src="https://img.shields.io/badge/TRPC-2596BE?logo=tRPC&logoColor=white" height="25"/>
+<img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" height="25"/>
+
+#### 🎨 Стилизация
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" height="25"/>
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white" height="25"/>
+
+#### 🗃️ Базы данных
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" height="25"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" height="25"/>
+
+</div>
 
 <table align="center">
   <tr>
-    <!-- Первая строка -->
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
       <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
         <div>
@@ -113,3 +130,6 @@
   </tr>
 </table>
 
+[![Последний коммит](https://img.shields.io/github/last-commit/algorithm-ssau/AEAEA?style=for-the-badge&color=green)](https://github.com/algorithm-ssau/AEAEA/commits/main)
+[![Контрибьюторы](https://img.shields.io/github/contributors/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/graphs/contributors)
+[![Открытые issues](https://img.shields.io/github/issues-raw/algorithm-ssau/AEAEA?style=for-the-badge)](https://github.com/algorithm-ssau/AEAEA/issues)
