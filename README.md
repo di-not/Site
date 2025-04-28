@@ -21,27 +21,23 @@
   - CRUD-операции для каталога товаров
   - Редактирование текстовых и графических материалов
 
- ### :hammer_and_wrench: Технологический стек
+ <div align="center" style="margin: 20px 0;">
 
-<div align="center" style="margin: 20px 0;">
+#### Основные технологии
+<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="25" title="Основной язык"/>
+<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" height="25" title="UI библиотека"/> 
+<img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" height="25" title="Фреймворк"/>
 
-#### Основной стек
-<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="25" title="Основной язык разработки"/>
-<img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" height="25" title="Фронтенд и SSR"/>
-<img src="https://img.shields.io/badge/tRPC-2596BE?style=flat&logo=tRPC&logoColor=white" height="25" title="Типобезопасный API"/>
-
-#### Базы данных
-<img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white" height="25" title="ORM"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" height="25" title="Основная БД"/>
+#### Бэкенд и БД
+<img src="https://img.shields.io/badge/tRPC-2596BE?style=flat&logo=tRPC&logoColor=white" height="25" title="API"/>
 <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" height="25" title="Документная БД"/>
 
 #### Стилизация
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" height="25" title="Утилитарные стили"/>
-<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" height="25" title="Препроцессор CSS"/>
-<img src="https://img.shields.io/badge/CSS_Modules-000000?logo=cssmodules&logoColor=white" height="25" title="Локальные стили"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" height="25" title="Утилиты"/>
+<img src="https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white" height="25" title="Препроцессор"/>
 
 #### Дополнительно
-<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="25" title="Обработка форм"/>
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="25" title="Спец. обработка"/>
 
 </div>
 
