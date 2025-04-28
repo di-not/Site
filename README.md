@@ -6,7 +6,7 @@
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
       <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <img src="https://avatars.githubusercontent.com/u/160622634?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
+          <img src="https://avatars.githubusercontent.com/u/191477093?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
           <strong style="display: inline-block; height: 40px; line-height: 1.3;">Овчинникова<br>Елизавета</strong>
           <div style="margin: 10px 0;">
             • Team Lead<br>
@@ -22,7 +22,7 @@
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
       <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <img src="https://avatars.githubusercontent.com/u/160622634?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
+          <img src="https://avatars.githubusercontent.com/u/191490969?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
           <strong style="display: inline-block; height: 40px; line-height: 1.3;">Буренова<br>Анна</strong>
           <div style="margin: 10px 0;">
             • Дизайнер<br>
@@ -38,7 +38,7 @@
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
       <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <img src="https://avatars.githubusercontent.com/u/160622634?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
+          <img src="https://avatars.githubusercontent.com/u/166629949?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
           <strong style="display: inline-block; height: 40px; line-height: 1.3;">Елизарова<br>Анастасия</strong>
           <div style="margin: 10px 0;">
             • Fullstack Dev<br>
@@ -54,7 +54,7 @@
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
       <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
         <div>
-          <img src="https://avatars.githubusercontent.com/u/160622634?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
+          <img src="https://avatars.githubusercontent.com/u/159873153?v=4" width="120" style="border-radius: 50%; border: 3px solid #2e7d32; margin: 0 auto 20px;"/>
           <strong style="display: inline-block; height: 40px; line-height: 1.3;">Кочетков<br>Егор</strong>
           <div style="margin: 10px 0;">
             • Fullstack Dev<br>
