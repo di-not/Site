@@ -47,7 +47,7 @@ npm run dev
 http://localhost:3000
 
 <br/>
-## 👥 Команда разработчиков
+### 👥 Команда разработчиков
 <table align="center">
   <tr>
     <td valign="top" width="200px" style="height: 220px; text-align: center; padding: 15px;">
@@ -135,6 +135,7 @@ http://localhost:3000
 
 <div align="center" style="margin: 20px 0;">
 <br/>
+  
 #### Основные технологии
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="25" title="Основной язык"/>
 <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" height="25" title="UI библиотека"/> 
